@@ -1,0 +1,480 @@
+/* Media Queries */
+
+@media (max-width: 1368px) {
+
+    /* Global */
+
+    .container {
+        width: 90%;
+    }
+
+
+
+    /* Main Section */
+
+    section#main-section {
+        height: 600px;
+    }
+
+    section#main-section div.main-section-content header h1 {
+        font-size: 2.5rem;
+    }
+
+
+
+    /* Our Services */
+
+    section#our-services div.our-services-content-box {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    section#our-services div.our-services-content-box div.our-services-content-box-image {
+        height: 200px;
+    }
+    
+    section#our-services div.our-services-content-box div.our-services-content-box-image img {
+        object-fit: cover;
+        height: 200px;
+    }
+
+    section#our-services div.our-services-content-box div.our-services-content-box-details {
+        text-align: center;
+    }
+
+    section#our-services div.our-services-content-box div.our-services-content-box-details {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    /* Our Background */
+
+    section#our-background .seri-hub-background {
+        padding: 3rem;
+    }
+
+
+
+    /* Media */
+
+    section#media div.media-content .media-content-box {
+        padding: 1rem;
+    }
+
+
+    /* About Us */
+
+    section#about-us div.about-us-content p {
+        width: 80%;
+    }
+
+    section#about-us div.about-us-content video {
+        height: 300px;
+    }
+
+    section#about-us div.mission-vision-box {
+        gap: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    section#about-us div.mission-vision-box div.mission-vision-box-content {
+        margin: 0;
+    }
+
+
+
+    /* Our Journey */
+
+    section#our-journey img {
+        width: 350px;
+    }
+
+    section#our-journey div.our-journey-contents {
+        justify-content: space-evenly;
+    }
+
+    section#our-journey div.our-journey-contents div.our-journey-contents-box {
+        margin: 0;
+    }
+
+    section#our-journey div.our-journey-contents div.our-journey-contents-box div.our-journey-contents-details {
+        width: 350px;
+        padding: 1rem;
+        height: 250px;
+    }
+
+
+
+    /* Contact Us */
+
+    section#contact-us div.contact-us-content img {
+        width: 450px;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details h3 {
+        font-size: 2rem;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details p {
+        font-size: 1rem;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details ul.contact-point {
+        font-size: 1.2rem;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details ul.contact-point li.contact-link {
+        margin: 10px 0;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details ul.contact-point li.contact-link i {
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 1280px) {
+
+    /* Supported by */
+
+    section#supported-by div.supported-by-content img {
+        height: 200px;
+    }
+
+    section#supported-by div.supported-by-content {
+        gap: 3rem;
+    }
+
+    section#supported-by div.supported-by-content div.supported-by-content-image {
+        margin: 0;
+    }
+
+
+
+    /* Contact Us */
+
+    section#contact-us div.contact-us-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+@media (max-width: 1024px) {
+
+    /* Main Section */
+
+    section#main-section {
+        height: 500px;
+    }
+
+    section#main-section div.main-section-content header h1 {
+        font-size: 2rem;
+    }
+
+
+
+    /* Our Background */
+
+    section#our-background .seri-hub-background {
+        padding: 2rem;
+    }
+
+
+
+    /* Media */
+
+    section#media div.media-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#media div.media-content .media-content-box {
+        width: 90%;
+    }
+
+
+
+    /* About Us */
+
+    section#about-us div.mission-vision-box {
+        flex-direction: column;
+    }
+
+
+
+    /* Our Journey */
+
+    section#our-journey img {
+        height: 300px;
+    }
+
+    section#our-journey div.our-journey-contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#our-journey div.our-journey-contents div.our-journey-contents-box div.our-journey-contents-details {
+        height: 100%;
+    }
+
+    section#our-journey div.our-journey-contents div.our-journey-contents-box {
+        flex-direction: row;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    section#our-journey div.our-journey-contents div.our-journey-contents-box div.our-journey-contents-details {
+        padding: 2rem;
+        text-align: left;
+    }
+
+
+
+    /* Supported By */
+
+    section#supported-by div.supported-by-content img {
+        object-fit: cover;
+        height: 150px;
+    }
+
+
+
+    /* Contact Us */
+
+    section#contact-us div.contact-us-content img {
+        width: 350px;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details ul.contact-point {
+        font-size: 1rem;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details ul.contact-point li.contact-link i {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+@media (max-width: 820px) {
+
+    /* Desktop Navigation */
+
+    header nav ul#navigation-links {
+        display: none;
+    }
+
+    header nav div.mobile-menu {
+        display: inline-block;
+    }
+
+
+
+    /* Main Section */
+
+    section#main-section {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    section#main-section div.main-section-content header h1 {
+        font-size: 1.5rem;
+    }
+
+
+
+    /* Our Services */
+
+    section#our-services div.our-services-content div.our-services-content-details {
+        flex-direction: column;
+    }
+
+    section#our-services div.our-services-content-box {
+        margin: 2rem 0;
+        width: 60%;
+    }
+
+
+
+    /* Our Background */
+
+    section#our-background .seri-hub-background {
+        padding: 2.5rem;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media (max-width: 430px) {
+
+    /* Main Section */
+
+    section#main-section {
+        height: 300px;
+    }
+
+    section#main-section div.main-section-content header h1 {
+        font-size: 1.2rem;
+    }
+
+    /* Our Services */
+
+    section#our-services div.our-services-content-box {
+        width: 100%;
+    }
+
+    section#our-services div.our-services-content-box div.our-services-content-box-details {
+        height: 100%;
+    }
+
+    /* Our Background */
+
+    section#our-background .seri-hub-background {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    section#our-background .seri-hub-background header, section#our-background .seri-hub-background p {
+        margin-bottom: 1rem;
+    }
+
+    /* Media */
+
+    section#media div.media-content .media-content-box h3 {
+        font-size: 1rem;
+    }
+
+    section#media div.media-content .media-content-box {
+        height: 100%;
+        margin: 2rem 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+    }
+
+
+
+    /* About Us */
+
+    section#about-us div.about-us-content h2 {
+        font-size: 1.5rem;
+    }
+
+    section#about-us div.about-us-content p {
+        width: 90%;
+    }
+
+    section#about-us div.mission-vision-box img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    section#about-us div.mission-vision-box {
+        gap: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    section#about-us div.mission-vision-box div.mission-vision-box-content {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    section#about-us div.mission-vision-box div.mission-vision-box-content div.mission-vision-box-details {
+        padding: 1;
+        width: 250px;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+
+
+    /* Team */
+
+    section#team-members img {
+        height: 200px;
+    }
+
+    section#team-members div.team-members-content div.team-members-box {
+        flex-direction: column;
+    }
+
+    section#team-members div.team-members-content div.team-members-box div.team-members-details {
+        width: 200px;
+        padding: 3rem 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    section#team-members div.team-members-content div.team-members-box h3 {
+        font-size: 1.5rem;
+    }
+
+
+
+    /* Our Journey */
+
+    section#our-journey div.our-journey-contents div.our-journey-contents-box {
+        flex-direction: column;
+    }
+
+    section#our-journey {
+        margin: 5rem 0;
+    }
+
+
+
+
+
+    /* Supported By */
+
+    section#supported-by div.supported-by-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    /* Contact Us */
+
+    section#contact-us {
+        margin: 5rem 0;
+    }
+
+    section#contact-us div.contact-us-content {
+        flex-direction: column;
+    }
+
+    section#contact-us div.contact-us-content div.contact-us-content-details {
+        width: 80%;
+    }
+
+    section#contact-us div.contact-us-content img {
+        display: none;
+    }
+
+
+
+    /* Footer */
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+
+}
